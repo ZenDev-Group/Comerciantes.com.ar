@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efecto Texto Scramble Progresivo</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* 1. ESTILOS BÁSICOS */
+        body {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            background-color: #0A0A0A; 
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* 2. ESTILOS DEL H1 */
+        .scramble-h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* 3. ESTILOS DEL TEXTO DINÁMICO (LA CLAVE) */
+        .jackpot-text {
+            color: #C0FF4A; /* Verde lima */            
+            /* CRUCIAL: Ancho fijo (basado en la frase más larga) */
+            /* "to wait for a developer" = 26 caracteres */
+            width: 26ch; 
+            
+            display: inline-block; 
+            text-align: left;
+            white-space: nowrap; /* Evita que la frase se parta */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1 class="scramble-h1">
+        <span>You don't need</span>
+        <span class="jackpot-text"></span>
+    </h1>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- CONFIGURACIÓN ---
+            const phrases = [
+                'to be a developer',
+                'to hire a developer',
+                'to wait for a developer'
+            ];
+            const scrambleChars = '!<>-_\\/[]{}—=+*^?#';
+            const element = document.querySelector('.jackpot-text');
+            
+            // Longitud de la frase más larga (para rellenar)
+            const maxLength = 15; 
+            
+            const timeBetweenPhrases = 2000; // 2s de pausa *después* de terminar
+            const revealSpeed = 40; // 40ms por cada letra
+            // ---------------------
+
+            let phraseIndex = 0;
+            let currentScrambleInterval; // Para poder detener la animación anterior
+
+            // Función que genera UN caracter aleatorio
+            function getRandomChar() {
+                return scrambleChars[Math.floor(Math.random() * scrambleChars.length)];
+            }
+            
+            // Función que genera texto aleatorio de un largo específico
+            function getRandomText(length) {
+                let text = '';
+                for (let i = 0; i < length; i++) {
+                    text += getRandomChar();
+                }
+                return text;
+            }
+
+            // --- LA NUEVA LÓGICA DE SCRAMBLE ---
+            function scrambleText(finalPhrase) {
+                // Detenemos cualquier animación anterior que esté corriendo
+                clearInterval(currentScrambleInterval);
+
+                // Rellenamos la frase con espacios para que tenga el ancho máximo
+                const paddedPhrase = finalPhrase.padEnd(maxLength, ' ');
+                
+                let letterCount = 0; // Contador de cuántas letras ya hemos "fijado"
+
+                currentScrambleInterval = setInterval(() => {
+                    // 1. Aumentamos el contador de letras "fijadas"
+                    letterCount++;
+
+                    // 2. Construimos el texto
+                    // Parte "fijada": toma las primeras 'letterCount' letras de la frase final
+                    let revealedText = paddedPhrase.substring(0, letterCount);
+                    // Parte "rebuelta": genera basura aleatoria para el resto
+                    let scrambledText = getRandomText(maxLength - letterCount);
+
+                    // 3. Mostramos el resultado
+                    element.textContent = revealedText + scrambledText;
+
+                    // 4. Si ya fijamos todas las letras...
+                    if (letterCount >= maxLength) {
+                        clearInterval(currentScrambleInterval); // Detenemos esta animación
+                        element.textContent = paddedPhrase; // Nos aseguramos que quede el texto final
+                    }
+                }, revealSpeed); // Velocidad de revelado de cada letra
+            }
+
+
+            // --- EL BUCLE PRINCIPAL ---
+            function runLoop() {
+                // Inicia la animación para la frase actual
+                scrambleText(phrases[phraseIndex]);
+                
+                // Preparamos el índice para la próxima vuelta
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+            }
+            
+            // Iniciar el ciclo
+            runLoop(); // Ejecuta la primera animación
+            setInterval(runLoop, timeBetweenPhrases); // Cambia de frase cada X segundos
+
+        });
+    </script>
+
+</body>
+</html>

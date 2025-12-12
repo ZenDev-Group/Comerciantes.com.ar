@@ -1,0 +1,827 @@
+    const empresas = [
+       {
+        "id": "evaluna",
+        "nombre": "Evaluna desde array",
+        "direccion": "",
+        "telefono": "2473446378",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/EVALUNA-PAPELERIA/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/evaluna_papeleria_creativa",
+        "descripcionCorta": "Papelería creativa 🎨 Tarjetas, fotos y regalos personalizados. Diseño único para cada cliente.",
+        "descripcionLarga": "Evaluna Papelería Creativa nos ofrece un mundo de detalles únicos y llenos de personalidad. Diseñamos y realizamos tarjetas personalizadas —virtuales o impresas—, tarjetas personales tipo presentación, y etiquetas y tags pensados especialmente para emprendedores que quieren destacar su marca.\nTambién brindamos servicio de fotocopias en color y blanco y negro, impresión de fotografías en medidas 10x15 y 13x18, y creamos regalos personalizados con fotos, como almanaques, señaladores con frases o números decorativos en papel fotográfico A4 (230 gr).\nCada pedido se entrega pactado con el cliente o a domicilio, y aceptamos todos los medios de pago.\n✨ Evaluna Papelería Creativa: donde cada papel cuenta una historia.\n\n",
+        "categoria": "comerciantes",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {
+            "id": "fp",
+        "nombre": "FP Construcciones",
+        "direccion": "",
+        "telefono": "2473533602",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/FP-CONSTRUCCIONES/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Remodelaciones, albañilería y electricidad ⚒️ Calidad y confianza con experiencia comprobada.",
+        "descripcionLarga": "Federico Paniagua ofrece servicios integrales de remodelaciones y albañilería en general, con más de 3 años de experiencia trabajando por cuenta propia y una sólida trayectoria en el rubro.\nRealiza reformas, reparaciones y mantenimiento de viviendas o locales, incluyendo colocación de PVC, instalaciones eléctricas, terminaciones y mejoras en interiores y exteriores.\nCada trabajo se realiza con compromiso, responsabilidad y atención al detalle, buscando siempre la satisfacción del cliente y resultados duraderos.\nFederico acompaña cada proyecto desde la planificación hasta la entrega final, brindando soluciones prácticas y a medida.\n✨ Confianza, experiencia y calidad en cada obra.",
+        "categoria": "servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "gf",
+        "nombre": "GF Viajes y Mini Fletes",
+        "direccion": "",
+        "telefono": " 2473535136",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Viajes, fletes y auxilios 🚐 Urgencias 24 horass con atención rápida y servicio confiable.",
+        "descripcionLarga": "Viajes  locales , media y larga distancia y Mini Fletes  y auxilio de Motos las 24 hs te ofrece un servicio confiable y rápido de traslados de media y larga distancia, mini fletes, y auxilio en ruta. Atendemos urgencias las 24 horas, todos los días del año, para que siempre tengas una solución a mano cuando más la necesitás. Nos especializamos en viajes personales, traslados de  muebles pequeños, artículos del hogar , herramientas de la construcción , Motos  asistencia inmediata en caso de todo tipo de Motos varadas o emergencias. Priorizamos la puntualidad, seguridad y buen trato, brindando atención personalizada en cada viaje hasta (4) personas  Ya sea un traslado urgente, un viaje planificado , estamos listos para ayudarte a llegar a destino sin complicaciones. ✨ Viajes,  Minis fletes y auxilios de motos  — las 24 hs, siempre cerca tuyo.",
+        "categoria": "servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "inefable",
+        "nombre": "INEFABLE ",
+        "direccion": "",
+        "telefono": "2473473122",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/INEFABLE/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Barras de dulces y salados para eventos, souvenirs y delivery diario en Colón y zona.",
+        "descripcionLarga": "INEFABLE Gumies nos ofrece una experiencia dulce y mágica que va más allá de lo común. Nuestro nombre refleja lo inefable: aquello que no se puede explicar con palabras, sino que hay que vivirlo. Llevamos nuestras barras de dulces y salados a tus fiestas y eventos, creando momentos únicos para disfrutar con amigos y familia, mientras nos ocupamos de todos los detalles. Además, realizamos souvenirs personalizados para tus invitados y contamos con delivery diario, llevando la magia directamente a tu hogar. Desde mayo de 2025, trabajamos en Colón y alrededores, acercando dulzura y creatividad a cada celebración. Contactanos al 2473 473122 y descubrí cómo INEFABLE Gumies puede transformar tu evento en un recuerdo inolvidable.",
+        "categoria": "comerciantes",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "kabubi",
+        "nombre": "KABUBI",
+        "direccion": "",
+        "telefono": "2473447234",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/KABUBI/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/KABUBI/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/KABUBI/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/KABUBI/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/KABUBI/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/KABUBI/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/romipeduzzi",
+        "descripcionCorta": "Pastelería casera y tortas para cualquier ocasión. Pedidos take away y pagos fáciles.",
+        "descripcionLarga": "Kabubi Tortas nos ofrece pastelería casera variada, elaborada con amor para acompañarte en cualquier momento del día o para tus eventos especiales. Desde tortas tradicionales hasta creaciones personalizadas, cada receta está pensada para brindar sabor y calidad en cada bocado. Trabajamos bajo sistema take away, atendiendo tus pedidos de manera telefónica o por redes sociales, para que disfrutes de nuestras delicias sin moverte de tu hogar. Aceptamos efectivo, transferencias, pago por QR y link de pago. Síguenos en Instagram @kabubitortas y descubrí nuestras novedades, promociones y tortas listas para encargar. Endulzá tus momentos con Kabubi Tortas, ¡tu pastel favorito siempre al alcance de tu mano!\n",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "horadelmate",
+        "nombre": "La Hora del Mate",
+        "direccion": "",
+        "telefono": "",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/LA-HORA-DEL-MATE/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Repostería y panadería artesanal, tortas, tartas y mermeladas con envío gratuito.",
+        "descripcionLarga": "La Hora del Mate nos ofrece una experiencia única en repostería y panadería artesanal, combinando tradición y sabor en cada elaboración. Los fines de semana, encontrarás nuestras delicias recién hechas, disponibles para disfrutar al instante o llevar. Durante la semana, trabajamos por encargos: tortas materas, húngaras, pastafrolas y tartas rellenas para cumpleaños, adaptándonos a tus gustos y necesidades. Además, contamos con mermeladas caseras en sabores como frutilla, naranja, arándanos y más, disponibles por pedido o según stock. Todos nuestros productos se pueden enviar sin cargo, acercando el sabor artesanal a tu casa. Síguenos en Facebook como La Hora del Mate y en Instagram @lahoradel.mate para descubrir nuestras novedades y promociones. ¡Endulzá tus momentos con nosotros!",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "laca",
+        "nombre": "LACA",
+        "direccion": "",
+        "telefono": "2473453152",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/LACA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/LACA/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/LACA/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/LACA/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/LACA/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/LACA/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/ceciangeloni/",
+        "descripcionCorta": "Cuidado de la piel, make up y asesoramiento personalizado.",
+        "descripcionLarga": "Venta de productos de cosmética profesional. Cuidado de la piel, perfumes, cremas, make up. Trabajo por catálogo y con stock. Soy Cosmetóloga, puedo asesorarte para adaptar tu compra a tu necesidad. Laboratorio LACA, empresa argentina dedicada al servicio integral de la belleza, avalados por normas de calidad y con principios activos innovadores.",
+        "categoria": "Comerciantes",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "lunaazul",
+        "nombre": "LUNA AZUL",
+        "direccion": "",
+        "telefono": "2473475800",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/luciana.albarracin.22277",
+        "instagram": "https://www.instagram.com/lunaazul.crochet/",
+        "descripcionCorta": "Creaciones artesanales en crochet. Amigurumis, mandalas y detalles llenos de ternura.",
+        "descripcionLarga": "En Luna Azul, cada hilo cuenta una historia. Este emprendimiento artesanal se especializa en creaciones tejidas a mano con la técnica del crochet, combinando paciencia, dedicación y mucho amor. Entre sus productos podés encontrar amigurumis, sets de nacimiento, mandalas, llaveros, flores decorativas y mucho más. Cada pieza está hecha con materiales de calidad, cuidando los detalles y transmitiendo calidez en cada punto. Ideal para regalar, decorar o conservar como un recuerdo especial. En Luna Azul el arte del tejido se transforma en magia, uniendo tradición y ternura en cada creación.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "mamba",
+        "nombre": "MAMBA",
+        "direccion": "",
+        "telefono": "2473471588",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/MAMBA/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/___mambastudio/",
+        "descripcionCorta": "Accesorios en cerámica artesanal, únicos y hechos a mano, con diseño y alma creativa.",
+        "descripcionLarga": "Mamba Studio nos ofrece una propuesta donde el arte, la forma y la textura se fusionan para crear accesorios únicos en cerámica hecha a mano. Cada pieza es el resultado de un proceso artesanal que celebra la imperfección como parte de la belleza, aprovechando las infinitas posibilidades de moldeado que brinda la arcilla.\nEn Mamba, cada diseño es irrepetible: pensado para quienes buscan piezas auténticas, con identidad y una historia detrás. Nuestros accesorios no solo complementan tu estilo, sino que también transmiten el valor del trabajo manual y el amor por los detalles.\nTodos los meses participamos en pop-ups en Capital, y muy pronto también estaremos presentes en ferias, compartiendo nuestra pasión por la cerámica y el diseño.\n📞 2473 47-1588 | 📸 @___mambastudio\nHecho a mano. Hecho con alma. Hecho en Mamba.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "mr",
+        "nombre": "Marina Rodríguez",
+        "direccion": "",
+        "telefono": "2473456269",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/foto-perfil.png",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/MARINA-RODRIGUEZ-ESPACIOS%20CREATIVOS/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/marinarodriguez379",
+        "instagram": "https://www.instagram.com/marinarodriguezespaciocreativo/",
+        "descripcionCorta": "Accesorios artesanales, diseño creativo y personalizado: morrales, riñoneras y más.",
+        "descripcionLarga": "Marina Rodríguez - Espacio Creativo nos ofrece un universo de accesorios únicos, hechos con amor, estilo y dedicación. Diseñamos y confeccionamos morrales, riñoneras, billeteras y cartucheras con un enfoque artesanal y creativo, combinando materiales de calidad, colores vibrantes y detalles que marcan la diferencia. Cada pieza cuenta una historia y refleja la personalidad de quien la lleva.\nEn Espacio Creativo, creemos que la moda también puede ser funcional, original y sostenible. Por eso, además de nuestros modelos ya disponibles, también realizamos diseños personalizados, adaptados a tus gustos y necesidades.\nTodavía no participamos en ferias, pero pronto estaremos presentes para compartir nuestro trabajo y seguir creando junto a vos.\n📞 2473 45-6269 | 📸 @marinarodriguezespaciocreativo | 💙 Facebook: Marina Rodríguez",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "mavigi",
+        "nombre": "MAVIGI",
+        "direccion": "",
+        "telefono": "2473410648",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/MAVIGI/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/mavigi_dulzura/",
+        "descripcionCorta": "Productos caseros y saludables, sin conservantes, llenos de sabor, calidad y dulzura natural.",
+        "descripcionLarga": "MAVIGI nos ofrece una propuesta artesanal pensada para cuidar tu salud sin renunciar al sabor. Elaboramos productos caseros con harinas integrales, harina de avena, almendras y algarroba, utilizando endulzantes en su justa medida, sin aditivos ni conservantes. En MAVIGI creemos que comer rico y saludable puede ir de la mano: por eso creamos opciones naturales, equilibradas y llenas de dulzura.\nDisfrutá nuestros combos saludables ideales para tus desayunos y meriendas, o nuestras delicias para eventos y celebraciones, como tartas de ricota, toffee, de coco y dulce de leche, brownies, pastas frolas y más. También ofrecemos waffles, budines, muffins y galletitas con ingredientes nobles y recetas hechas con amor.\nCada producto de MAVIGI Dulzura refleja dedicación, calidad y ese toque casero que hace la diferencia.\n📞 2473-410648 | 📸 @mavigi_dulzura",
+        "categoria": "Gastronomia",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "agusbagues",
+        "nombre": "AGUSBAGUES",
+        "direccion": "",
+        "telefono": "2473457076",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/AGUSBAGUES/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/agusbagues.colon",
+        "descripcionCorta": "Belleza, bienestar y cosmética natural con Bagués | Stock inmediato, envíos y ofertas exclusivas.",
+        "descripcionLarga": "Agusbagues.colon nos ofrece mucho más que productos: nos acerca experiencias de belleza, bienestar y cuidado personal. Como psicóloga y emprendedora, confío plenamente en Bagués, una empresa argentina con más de 38 años de trayectoria en cosmética y venta directa. Hace más de 20 años que utilizo sus productos y hoy elijo compartirlos con vos, porque sé lo que significan en la vida diaria: calidad, confianza y bienestar. Mis preferidos son los de la línea Véspero, elaborados con ingredientes naturales y aceites esenciales. Esta colección incluye cremas hidratantes y descontracturantes, sprays, bálsamos y óleos corporales, ideales para relajar, regenerar la piel, aliviar malestares y brindar confort. Podés recibir el catálogo virtual, acceder a ofertas exclusivas y contar con stock disponible para entrega inmediata. Hacemos envíos y entregas a convenir.",
+        "categoria": "Comerciantes",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        { "id": "impresionesbarbara",
+        "nombre": "Impresiones Bárbara",
+        "direccion": "",
+        "telefono": "2473416373",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/foto-perfil.jpeg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/1.jpeg",
+            "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/2.jpeg",
+            "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/3.jpeg",
+            "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/4.jpeg",
+            "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/5.jpeg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Tu espacio creativo para impresiones, diseño gráfico, fotografía y tarjetería con estilo.",
+        "descripcionLarga": "En Impresiones Bárbara, la creatividad se imprime en cada detalle. Somos un espacio donde la tecnología y el diseño se fusionan para ofrecerte soluciones gráficas con estilo y personalidad. Desde fotocopias precisas e impresiones de alta calidad hasta tarjetas de presentación, etiquetas y tarjetería para eventos, todo lo que hacemos tiene un toque de distinción. Nuestro equipo cuida cada trabajo como si fuera propio, aportando color, elegancia y un toque de glamour a tus proyectos. Además, acompañamos tus momentos más especiales con fotografía profesional, transformando cada recuerdo en una obra visual inolvidable. En Impresiones Bárbara no solo imprimimos, diseñamos experiencias que hablan bien de vos y de tu marca.",
+        "categoria": "Servicios",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "as",
+        "nombre": "AGUSTIN SALAS",
+        "direccion": "",
+        "telefono": "2473475986",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/AGUSTIN-SALAS/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Obras y reformas de gas y agua | Instalaciones seguras con gasistas matriculados y materiales de calidad.",
+        "descripcionLarga": "Agustín Salas nos ofrece soluciones seguras y confiables en instalaciones y reformas de gas y agua. Con experiencia en obras y servicios de gas envasado y natural, realiza desde pequeñas reparaciones hasta proyectos completos de obra nueva y rehabilitación de servicio con inspección. Trabaja en conjunto con arquitectos y gasistas matriculados, garantizando calidad, seguridad y cumplimiento de todas las normativas vigentes. Además, brinda servicios especializados en cañerías de gas con sistema epoxi y termofusión, ideales para lograr instalaciones más duraderas y eficientes. Su compromiso es brindar un servicio cercano, transparente y de confianza, para que cada cliente tenga la tranquilidad de estar en buenas manos.",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": true
+        },
+        {"id": "vivir-mejor",
+        "nombre": "VIVI TRANQUILO COLON",
+        "direccion": "",
+        "telefono": "2473453078",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/2.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/vivitranquilocolon/",
+        "descripcionCorta": "Alarmas X-28 con instalación y monitoreo 24hs | Seguridad para empresas, hogares y comercios.",
+        "descripcionLarga": "Guillermo nos ofrece tranquilidad y seguridad las 24 horas con venta, instalación y monitoreo de alarmas X-28. Brinda soluciones pensadas para empresas, negocios y viviendas, adaptándose a cada necesidad con tecnología confiable y de última generación. El servicio incluye colocación profesional, soporte inmediato y atención personalizada, con el compromiso de responder siempre, incluso en urgencias 24hs. La marca X-28 es reconocida en el mercado por su eficacia y durabilidad, lo que garantiza a cada cliente la máxima protección en su hogar o lugar de trabajo. Porque la seguridad no tiene horarios, está disponible los 365 días del año para acompañarte en la prevención y cuidado de lo que más valorás.",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": true
+        },
+
+        {"id": "arabian",
+        "nombre": "ARABIAN PERFUMES",
+        "direccion": "",
+        "telefono": "2473445035",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/ARABIAN-PERFUMES/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Perfumes árabes importados y originales | Fragancias exclusivas con atención personalizada.",
+        "descripcionLarga": "Arabian Perfumes nos invita a descubrir la esencia del lujo y la sofisticación a través de fragancias árabes importadas y 100% originales. Este emprendimiento está dedicado a ofrecer perfumes exclusivos, cuidadosamente seleccionados para quienes buscan autenticidad y distinción en cada detalle. Creen que cada aroma cuenta una historia, por eso brindan una atención personalizada, ayudando a cada cliente a encontrar el perfume ideal para su estilo de vida, su personalidad y su presupuesto. Su misión es acercar el encanto de la perfumería árabe a tu día a día, con opciones que combinan tradición, elegancia y modernidad. Con calidad garantizada, aromas intensos y de larga duración, quieren que tu fragancia se convierta en tu sello personal.",
+        "categoria": "Comerciantes",
+        "haceEnvios": true,
+        "urgencias": true
+        },
+        {"id": "beerseba",
+        "nombre": "ARTE BEERSEBA",
+        "direccion": "",
+        "telefono": "2473456239",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/BEERSEBA/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/arte.beerseba",
+        "descripcionCorta": "Arte, restauración, murales y decoración creativa | Diseño artístico personalizado.",
+        "descripcionLarga": "Arte Beerseba nos invita a transformar cada espacio en una obra de arte. Brinda un servicio completamente artístico, pensado para quienes buscan originalidad, color y personalidad en su entorno. Realiza restauración de muebles, pátinas en paredes, cuadros personalizados, murales y decoración de eventos, combinando técnicas artesanales con una mirada estética única. También diseña jardines de cactus y suculentas y crea objetos de arte exclusivos, hechos a mano y con amor por los detalles. Cada proyecto nace de la conexión con el cliente y el deseo de reflejar su esencia en cada creación. Si buscás darle vida a tus espacios con arte, color y estilo propio, te acompaña en todo el proceso creativo para hacerlo realidad.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "glitterbar",
+        "nombre": "BRILLO GLITTER BAR",
+        "direccion": "",
+        "telefono": "2473469635",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/BRILLO-GLITTER-BAR/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Glitter, tattoos y diversión para cumples infantiles | Estación de brillo mágica y segura.",
+        "descripcionLarga": "Brillo Glitter Bar nos trae una propuesta mágica y llena de color para los cumples infantiles. Ofrece un servicio único llamado “Estación de Tattoos”, donde los chicos pueden lookearse con glitter, gemas y tattoos brillantes para darle un toque especial a su festejo. El servicio incluye glitter en gel, gemas, strass, perlas para el pelo, labiales y sombras con brillo, polvo de hadas, pintapelos y una amplia variedad de tattoos realizados con pegamento hipoalergénico, en distintos colores y diseños. Los niños pueden elegir entre superhéroes, princesas, unicornios, jugadores de fútbol, personajes de Disney, corazones, flores, dinosaurios ¡y mucho más! El objetivo es que cada fiesta se llene de magia, brillo y sonrisas.",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "bru",
+        "nombre": "BRU CREACIONES",
+        "direccion": "Calle 48 entre 14 y 15 N°673",
+        "telefono": "2473406988",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/BRU-CREACIONES/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/SilviaFerreyra",
+        "instagram": "https://www.instagram.com/bru_creaciones",
+        "descripcionCorta": "Bolsos, mochilas y accesorios artesanales en tela | Diseño, calidad y creatividad local.",
+        "descripcionLarga": "BRU Creaciones nos ofrece productos únicos, prácticos y hechos con dedicación. Detrás de cada diseño está Silvia Ferreyra, quien combina creatividad y funcionalidad para crear bolsos materos, mochilas, riñoneras, neceseres, porta platos, contenedores y cartucheras, ideales para el día a día o para regalar. Cada pieza está confeccionada con materiales resistentes como tela cordura, loneta, yute o nylon cristal fantasía, lo que garantiza durabilidad y estilo. En constante innovación, siempre incorpora nuevos productos para ofrecer más opciones personalizadas a sus clientes. Podés encontrar sus creaciones en ferias locales o contactarla directamente por redes.",
+        "categoria": "Comerciantes",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "catik",
+        "nombre": "CATIK-DECO",
+        "direccion": "",
+        "telefono": "",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/CATIK-DECO/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Papelería creativa personalizada | Cumples, casamientos y eventos con diseño único.",
+        "descripcionLarga": "\nNerina Papelería Creativa nos llena de color y detalles únicos para cada celebración. Desde hace más de un año y medio, me dedico a diseñar y crear papelería personalizada para cumpleaños infantiles, casamientos, fiestas de 15 y eventos de adultos, adaptando cada trabajo al estilo y temática que el cliente imagina.\nCada pieza está pensada con amor y creatividad: invitaciones, toppers, etiquetas, carteles, souvenirs y decoración impresa, todo hecho a mano y con materiales de calidad.\nMi objetivo es transformar cada evento en un recuerdo especial, cuidando los detalles que hacen la diferencia.\nRealizo envíos y acompaño a mis clientes desde la idea hasta el resultado final, para que cada festejo tenga su toque mágico y personal.\n🎉 Creando momentos únicos desde enero de 2024.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "circe",
+        "nombre": "Circe",
+        "direccion": "",
+        "telefono": "2473539475",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/CIRCE/FOTOS/5.jpg"
+        ],
+        "facebook": "CIRCE Indumentaria y Lencería",
+        "instagram": "@lenceria.circe",
+        "descripcionCorta": "Lencería, moda y confort | Showroom y ventas por encargue de las mejores marcas.",
+        "descripcionLarga": "Circe es un emprendimiento de lencería e indumentaria que combina estilo, comodidad y confianza. Nació hace más de 5 años, en plena pandemia, con el propósito de acompañar a cada mujer a sentirse bien consigo misma a través de prendas de calidad y diseño. Trabajamos con las mejores marcas nacionales como Lody, Brigitte, Kaury, Lencatex, Shedyl, Sigry, entre otras, ofreciendo productos que se adaptan a todos los cuerpos y estilos. En nuestro showroom vas a encontrar no solo lencería, sino también pijamas, mallas, accesorios, perfumes y mucho más, todo elegido con dedicación y amor por los detalles. Realizamos ventas por encargue y brindamos atención personalizada para ayudarte a elegir lo que mejor te quede y te haga sentir única.",
+        "categoria": "Indumentaria",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+
+        {"id": "cmari",
+        "nombre": "Creaciones Mari",
+        "direccion": "",
+        "telefono": "2473465252",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/CREACIONES-MARI/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Muñecos tejidos al crochet | Creaciones artesanales llenas de ternura y color.",
+        "descripcionLarga": "Mari Simonella nos invita a descubrir un mundo lleno de ternura y creatividad con sus muñecos tejidos al crochet. Cada pieza es hecha a mano con dedicación y amor, cuidando los detalles para dar vida a personajes únicos y llenos de encanto. Elaboro muñecos de crochet personalizados, ideales para regalar, decorar o acompañar a los más pequeños. Cada creación combina colores, texturas y puntadas con la delicadeza del trabajo artesanal. Mi objetivo es transmitir calidez y alegría en cada tejido, creando recuerdos que perduren en el tiempo. Podés ver mis trabajos y hacer tus pedidos a través de mis redes sociales o por WhatsApp.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "crearte",
+        "nombre": "CREARTE DG",
+        "direccion": "",
+        "telefono": "2473 519155",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/CREARTE/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Diseño y personalización creativa | Productos únicos hechos a tu medida.",
+        "descripcionLarga": "CREARTE DG nos inspira a transformar ideas en productos únicos y llenos de identidad. Somos un emprendimiento de diseño y personalización que combina creatividad, tecnología y atención al detalle para hacer realidad lo que imaginás. Ofrecemos una amplia variedad de artículos personalizados: stickers, etiquetas, tarjetas personales, tags, tazas, agendas, imanes, llaveros, remeras, mates y mucho más. Cada pieza se diseña con dedicación, ya sea con nuestros propios diseños o los del cliente, buscando siempre que el resultado refleje su estilo, marca o historia. Porque creemos que los detalles marcan la diferencia, hacemos de cada creación algo especial, funcional y 100% personalizado.",
+        "categoria": "Comerciantes",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "carrito",
+        "nombre": "El Carrito de la Plaza",
+        "direccion": "",
+        "telefono": "2473454410 / 2473503405",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/EL-CARRITO-DE-LA-PLAZA/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Comida rápida con sabor casero 🍔✨ Hamburguesas, panchos, pizzas y delivery en la plaza.",
+        "descripcionLarga": "El Carrito de la Plaza nos invita a disfrutar de la mejor comida rápida con ese toque casero que tanto nos gusta. Somos el punto de encuentro ideal los fines de semana y feriados en la plaza: hamburguesas jugosas, panchos, súper panchos, pizzas irresistibles, sándwiches de milanesa XXL, papas fritas, salchipapas y nuestra especial bondiolita desmenuzada, ¡todo recién hecho y con las mejores gaseosas bien frías! Además, contamos con servicio de delivery para que disfrutes sin moverte de casa, y también podés contratarnos para eventos y llevar el sabor del carrito a tu fiesta o reunión. Encontranos en Instagram como @carrito_laplaza o escribinos al 2473-454410 / 2473-503405. ✨ El Carrito de la Plaza: sabor, buena onda y momentos compartidos.",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "empanadas",
+        "nombre": "Débora Empanadas",
+        "direccion": "",
+        "telefono": "1159132828",
+        "fotoPerfil": "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/1.jpg",
+            "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/2.jpg",
+            "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/3.jpg",
+            "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/4.jpg",
+            "https://www.microemprendedores.com.ar/img/EMPANADAS-CRIOLLAS/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "",
+        "descripcionCorta": "Empanadas criollas caseras 🥟 Fritas, al horno o frizadas. Delivery y pedidos personalizados.",
+        "descripcionLarga": "Débora nos deleita con sus exquisitas empanadas de carne criollas, elaboradas con amor y ese sabor casero que las hace únicas. Podés elegirlas fritas o al horno, con el toque especial de pasas de uva y aceitunas, que las convierte en una verdadera tradición argentina. Realiza delivery y también ofrece la opción de retirar personalmente —la mayoría de sus clientes lo hace—, aunque si vivís en zonas de difícil acceso o en Sección Quintas, ¡no te preocupes! Débora organiza envíos cuando llueve o el camino se complica. Además, podés pedirlas crudas o frizadas para cocinarlas cuando quieras. Trabaja los viernes, sábados y domingos, y durante la semana por pedido coordinado. 📞 Pedí las tuyas al 1159132828 y descubrí por qué todos vuelven por más. ✨ Débora Empanadas: caseras, sabrosas y hechas con el corazón.",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "mikaindumentaria",
+        "nombre": "MIKA INDUMENTARIA",
+        "direccion": "",
+        "telefono": "3412177496",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/5.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/6.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/7.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/8.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-INDUMENTARIA/FOTOS/9.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/_mica.sanz?utm_source=qr&igsh=MWFwZDd1bWE1bTVwNA== ",
+        "descripcionCorta": "Lencería artesanal, indumentaria femenina y accesorios infantiles con diseño y alma.",
+        "descripcionLarga": "Arte en Diseño nos ofrece un universo donde la creatividad y la elegancia se unen para vestir cada momento con estilo y autenticidad. Especializados en lencería femenina, indumentaria artesanal y accesorios infantiles, combinamos diseño exclusivo, materiales de calidad y confección cuidada en cada prenda. Cada creación está pensada para resaltar la belleza, la comodidad y la confianza de quien la usa, fusionando moda y arte en detalles únicos. En Arte en Diseño, creemos que la ropa no solo viste, sino que expresa emociones, personalidad y sueños. Desde delicadas piezas de lencería hasta coloridos accesorios para los más pequeños, cada colección refleja pasión, amor por el diseño y dedicación en cada costura. Descubrí una propuesta hecha con alma, diseño y mucho corazón.",
+
+        "categoria": "Indumentaria",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "yor",
+        "nombre": "Sabores De Yor",
+        "direccion": "",
+        "telefono": "2473446156",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/SABORES-DE-YOR/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/saboresdeyor/?utm_source=ig_web_button_share_sheet",
+        "descripcionCorta": "Alfajores artesanales, budines y galletitas con sabor casero 💛 Hechos a mano en Sabores de Yor..",
+        "descripcionLarga": "Sabores de Yor nos ofrece una experiencia dulce, auténtica y artesanal. Cada uno de sus alfajores, budines y galletitas está elaborado con dedicación, ingredientes de calidad y ese toque casero que los hace únicos. 💛Desde su cocina, este emprendimiento local crea delicias artesanales pensadas para disfrutar en familia, compartir o regalar. El secreto está en el amor por lo hecho a mano y en el sabor que te transporta a lo simple y delicioso. Podés realizar tus pedidos personalizados con 3 días de anticipación, o consultar el stock disponible en redes sociales, donde publican sus últimas creaciones. En Sabores de Yor, cada bocado cuenta una historia de esfuerzo, pasión y sabor.📱 Encontranos en Instagram como @saboresdeyor o escribinos al 2473-446156 para coordinar tu pedido.",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "mikamakeup",
+        "nombre": "Mika Make Up",
+        "direccion": "",
+        "telefono": "+3412177496",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/8.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/5.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/6.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/7.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/8.jpg",
+            "https://microemprendedores.com.ar/img/MIKA-MAKE-UP/FOTOS/9.jpg"
+
+        ],
+        "facebook": "",
+        "instagram": "<https://www.instagram.com/_mica.sanz?utm_source=qr&igsh=MWFwZDd1bWE1bTVwNA== >",
+        "descripcionCorta": "Maquillaje profesional y diseño de cejas, realzá tu belleza natural con estilo y precisión.",
+        "descripcionLarga": "Mika Make Up nos ofrece servicios de maquillaje profesional y diseño de cejas personalizados, pensados para realzar tu belleza natural en cualquier ocasión. Especializada en perfilados de cejas, logramos un look armonioso que se adapta a tu rostro, destacando tus rasgos y brindando confianza. Ya sea para eventos, sesiones de fotos o tu día a día, cada servicio se realiza con técnicas modernas y productos de alta calidad, cuidando tu piel y resaltando tu estilo único. Nuestro enfoque combina creatividad, precisión y atención al detalle, asegurando resultados duraderos y elegantes. ¡Descubrí cómo un maquillaje profesional y unas cejas perfectamente perfiladas pueden transformar tu mirada y tu autoestima!",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "sakura",
+        "nombre": "SAKURA FRAGANCE ",
+        "direccion": "",
+        "telefono": "2473447872",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/SAKURA-FRAGANCE/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/sakura.fragance10?utm_source=ig_web_button_share_sheet&igsh=eWEyOHNjdTZvNDY3",
+        "descripcionCorta": "Aromatizantes, difusores y sahumerios 🌿 Calidad y fragancias únicas en Sakura Fragance.",
+        "descripcionLarga": "Sakura Fragance nos invita a transformar cada espacio con aromas que inspiran bienestar y armonía. Este emprendimiento se dedica a la reventa de aromatizantes textiles, difusores, sahumerios, repelentes y ahora también incorpora un limpiador de pisos con fragancias duraderas y refrescantes. 🌸Desde Teniente Santi 426, Hughes (Santa Fe), Sakura Fragance ofrece productos seleccionados que combinan calidad, aroma y diseño, ideales para perfumar tu hogar o tu ropa con un toque único. Realizan entregas en Colón durante la semana y coordinan pedidos de manera práctica y personalizada a través de redes sociales. Seguí sus novedades en Instagram: @sakura.fragance10 o escribí al 2473 44-7872 para descubrir tus nuevas fragancias favoritas. Sakura Fragance — aromas que inspiran, productos que enamoran.",
+        "categoria": "Comerciantes",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "sunshine",
+        "nombre": "SUNSHINE BY MAR",
+        "direccion": "",
+        "telefono": "2473457203",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/SUNSHINE-BY-MAR/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/sunshinebymar?igsh=MXB3Mms0OHRxc3Fkcg%3D%3D&utm_source=qr ",
+        "descripcionCorta": "Aritos de resina artesanales y personalizados 💖 Hechos a mano, en ferias y por Instagram.",
+        "descripcionLarga": "Sunshine Creaciones nos invita a descubrir un mundo de color, brillo y creatividad a través de aritos de resina totalmente artesanales, elaborados con dedicación y amor en cada detalle. Este emprendimiento, que recién comienza a crecer, combina el arte del diseño con la personalización: podés pedir tus accesorios únicos y personalizados, pensados especialmente para vos. Encontrás sus creaciones en ferias locales y también en Instagram, donde cada pieza refleja la esencia de lo hecho a mano: imperfectamente perfecto, auténtico y con alma. Evenecer Creaciones celebra el valor del trabajo artesanal, la belleza en lo simple y la conexión entre quien crea y quien elige llevar algo especial. 💫Aritos de resina hechos con amor, para brillar todos los días.",
+        "categoria": "Artesanias",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "lunaaccesorios",
+        "nombre": "Luna Azul Accesorios",
+        "direccion": "",
+        "telefono": "2473475800",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/LUNA-AZUL-ACCESORIOS/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/search/top?q=luciana%20albarracin",
+        "instagram": "https://www.instagram.com/lunaazul_acce/",
+        "descripcionCorta": "Accesorios artesanales en macramé, sublimados y más, hechos a mano con amor y estilo.",
+        "descripcionLarga": "Luna Azul Accesorios nos ofrece un universo artesanal donde cada pieza cuenta una historia. Diseñamos y elaboramos a mano pulseras en macramé, collares, straps para celular y llaveros, combinando creatividad, color y estilo propio. A lo artesanal sumamos nuevas propuestas como colitas para el pelo, llaveros sublimados, llaveros de goma, broches, vinchas y mucho más, pensadas para acompañarte en el día a día con un toque único.\nEn Luna Azul, cada creación está hecha con dedicación y detalle, reflejando la pasión por lo hecho a mano y la búsqueda constante de innovación. Nos encontrás siempre en ferias, compartiendo nuestro trabajo y conectando con quienes valoran lo auténtico. Hecho con hilo, color y mucho corazón.",
+        "categoria": "Artesanias",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "msconstrucciones",
+        "nombre": "Maxi Sanchez Construcciones",
+        "direccion": "",
+        "telefono": "2473518115",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/7.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-1/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/search/top?q=maximiliano%20sanchez",
+        "instagram": "https://www.instagram.com/maxi.sanchez84/",
+        "descripcionCorta": "Albañilería profesional, calidad garantizada y experiencia que se nota en cada obra.",
+        "descripcionLarga": "Trabajos de Albañilería Garantizados nos ofrece la tranquilidad de saber que cada proyecto se realiza con dedicación, experiencia y pasión por el oficio. Con muchos años en el rubro de la construcción y la albañilería profesional, brindamos soluciones de calidad superior en cada detalle: desde pequeñas reformas hasta obras completas. Nuestra prioridad es la satisfacción del cliente, por eso garantizamos resultados duraderos, prolijos y seguros. Amamos lo que hacemos, y eso se nota en cada pared levantada, en cada terminación impecable y en cada cliente que vuelve a confiar. Porque sabemos que la calidad no se improvisa: se construye con compromiso, precisión y responsabilidad.\nTrabajamos con seguro de vida para tu tranquilidad.\n",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "decovinil",
+        "nombre": "DecoVinil",
+        "direccion": "",
+        "telefono": "2473518115",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/8.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/MAXI-SANCHEZ-2/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/maximiliano.sanchez.1232/",
+        "instagram": "https://www.instagram.com/maxi.sanchez84/",
+        "descripcionCorta": "Placas y pisos vinílicos autoadhesivos de calidad, resistencia y diseño para tus espacios.",
+        "descripcionLarga": "ecoVinil nos ofrece soluciones prácticas y modernas para renovar tus espacios sin complicaciones. Especializados en placas autoadhesivas y pisos vinílicos de alta resistencia, contamos con una amplia variedad de medidas y colores: placas de 60x30, 120x60 y rollos de 122x3; pisos autoadhesivos de 60x5; y vinilos en todos los tonos, disponibles en 60x5 o 60x10. También trabajamos con pisos de 2 cm de espesor, 2 m de ancho y el largo que necesites. Cada producto combina calidad, durabilidad y diseño, pensados para adaptarse a todo tipo de ambientes: hogares, locales comerciales y oficinas. Con DecoVinil, transformar tus espacios es simple, rápido y estéticamente impecable. Apostamos por la innovación, la practicidad y el estilo para que cada rincón refleje tu personalidad.\n",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "slmarketing",
+        "nombre": "SL Marketing",
+        "direccion": "",
+        "telefono": "2473407680",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/SL-MARKETING/FOTOS/5.jpg"
+        ],
+        "facebook": "https://www.facebook.com/silvana.lallana/",
+        "instagram": "https://www.instagram.com/slmarketing.redes/",
+        "descripcionCorta": "Community Manager con enfoque estratégico, IA y mentorías para marcas personales y PYMES.",
+        "descripcionLarga": "Silvana Lallana es Community Manager con formación en Administración de PYMES y más de cinco años de experiencia en la gestión de redes sociales como Instagram, Facebook y LinkedIn, ayudando a emprendedores y pequeñas empresas a construir una presencia digital sólida y coherente.\nSu enfoque combina estrategia, creatividad y tecnología, desarrollando contenido orgánico, diseño gráfico estratégico y una gestión alineada a los objetivos de cada marca.\nSilvana integra herramientas de Inteligencia Artificial —como ChatGPT, Canva IA y asistentes de redacción— para optimizar tiempos, mejorar resultados y crear contenido que realmente conecte con la audiencia.\nAdemás, ofrece mentorías personalizadas en LinkedIn para potenciar marcas personales, mejorar oportunidades laborales y acompañar a quienes buscan destacarse en el mundo digital.\n✨ Estrategia, creatividad y conexión humana en cada publicación.\n",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "tpc",
+        "nombre": "Taller Protegido Colón",
+        "direccion": "",
+        "telefono": "2473456760",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/TALLER-PROTEGIDO/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/protegidotaller/",
+        "descripcionCorta": "Productos de limpieza hechos con inclusión 💙 Calidad, compromiso y delivery en Taller Protegido Colón.",
+        "descripcionLarga": "Taller Protegido Colón es un espacio de trabajo inclusivo y solidario dedicado a la venta de productos y accesorios para limpieza, elaborados con compromiso y dedicación por adultos con discapacidad.\nOfrecen una amplia variedad de artículos: bolsas de residuos (familiares y de consorcio), escobillones, rejillas y trapos de piso, todos confeccionados con calidad y cuidado en cada detalle.\nPodés visitar su salón de ventas en calle 11 entre 50 y 51 (Colón), de lunes a viernes de 8 a 13 hs, o aprovechar su servicio de delivery activo los martes y jueves por la mañana.\nCon cada compra, colaborás con la inclusión laboral y el desarrollo personal de quienes forman parte del taller. ✨ Productos con propósito. Calidad, trabajo y compromiso social.\n\n",
+        "categoria": "Comerciantes",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "tecnopisos",
+        "nombre": "Tecnopisos",
+        "direccion": "",
+        "telefono": "2473409044",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/1.png",
+            "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/2.png",
+            "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/3.png",
+            "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/4.png",
+            "https://microemprendedores.com.ar/img/TECNOPISOS/FOTOS/5.png"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/tecnopisoscolon/",
+        "descripcionCorta": "Pisos spc y flotantes, revestimientos y cielorrasos con estilo. Amoblamiento e iluminación.\n",
+        "descripcionLarga": "Tecnopisos Colón ofrece soluciones integrales para renovar y modernizar tus espacios, combinando diseño, calidad y funcionalidad.\nNos especializamos en la venta y colocación de pisos flotantes, vinílicos y revestimientos, brindando asesoramiento personalizado para hogares, oficinas y locales comerciales.\nAdemás, trabajamos con cielorrasos de PVC, una opción práctica, duradera y estética para transformar cualquier ambiente.\nComplementamos nuestros servicios con una línea completa de amoblamiento e iluminación comercial y residencial, pensada para crear espacios armónicos, modernos y confortables.",
+        "categoria": "Servicios",
+        "haceEnvios": false,
+        "urgencias": false
+        },
+        {"id": "zanito",
+        "nombre": "Es Zanito",
+        "direccion": "38 e/ 23 y 24",
+        "telefono": "2473460113",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/ZANITO/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/ZANITO/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/ZANITO/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/ZANITO/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/ZANITO/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/ZANITO/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/es_zanito/",
+        "descripcionCorta": "Huevos libres, yerba orgánica y miel pura — productos naturales con envíos sin cargo 🌿",
+        "descripcionLarga": "Estela nos ofrece una propuesta natural, consciente y llena de sabor. En su emprendimiento, combina la frescura de huevos de gallinas libres, la energía auténtica de una yerba orgánica, y la dulzura incomparable de la miel pura, productos elegidos con amor y respeto por la naturaleza. Además, suma accesorios prácticos como hueveras deslizantes y omeleteras para microondas, ideales para hacer tu cocina más cómoda y sustentable.\nCon envíos sin cargo y atención personalizada, Estela acerca calidad, bienestar y conciencia ecológica a tu mesa. Visitá su espacio y descubrí todo lo que la naturaleza tiene para ofrecerte.\n",
+        "categoria": "Gastronomia",
+        "haceEnvios": true,
+        "urgencias": false
+        },
+        {"id": "chapas",
+        "nombre": "A las chapas",
+        "direccion": "",
+        "telefono": "2473410185",
+        "fotoPerfil": "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/foto-perfil.jpg",
+        "fotos": [
+            "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/1.jpg",
+            "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/2.jpg",
+            "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/3.jpg",
+            "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/4.jpg",
+            "https://microemprendedores.com.ar/img/A-LAS-CHAPAS/FOTOS/5.jpg"
+        ],
+        "facebook": "",
+        "instagram": "https://www.instagram.com/a_laschapas_/",
+        "descripcionCorta": "Chapas decorativas artesanales, vintage y sublimadas, perfectas para tu hogar o regalo original.",
+        "descripcionLarga": "Leonardo Horacio Jaime nos ofrece chapas decorativas artesanales que combinan estilo vintage con técnicas modernas de sublimación. Cada pieza es única, pensada para darle a tu hogar, oficina o espacio creativo un toque especial y lleno de personalidad. Participa activamente en ferias, donde comparte su pasión por el diseño artesanal y la estética que respeta las raíces del trabajo hecho a mano. Sus chapas son ideales para decoración de interiores, regalos originales y proyectos creativos. Con materiales de calidad y atención al detalle, Leonardo transforma simples chapas en verdaderas obras de arte que cuentan historias y evocan emociones.",
+        "categoria": "Artesanias",
+        "haceEnvios": true,
+        "urgencias": false
+}
+    ];
+
+function displayEmpresas(empresas) {
+    const container = document.getElementById('contenedor-todas');
+    container.innerHTML = '';
+
+    empresas.forEach(empresa => {
+        const empresaDiv = document.createElement('div');
+        empresaDiv.classList.add('empresa');
+        empresaDiv.innerHTML = `
+            <div class="tarjeta">
+                <img src="${empresa.fotoPerfil}" alt="${empresa.nombre}" class="foto-perfil">
+                <h3>${empresa.nombre}</h3>
+                <p>${empresa.descripcionCorta}</p>
+                <p><strong>Categoría:</strong> ${empresa.categoria}</p>
+                ${empresa.telefono ? `${empresa.telefono}` : ''}
+            </div>
+        `;
+        container.appendChild(empresaDiv);
+    });
+}
+
+// ✅ Ejecutar cuando la página cargue
+displayEmpresas(empresas.slice(0, 4));
+
+
+function displayComerciantes(comerciantes) {
+    const container = document.getElementById('contenedor-comerciantes');
+    container.innerHTML = '';
+
+    comerciantes.forEach(comerciante => {
+        const comercianteDiv = document.createElement('div');
+        comercianteDiv.classList.add('empresa');
+        comercianteDiv.innerHTML = `
+            <div class="tarjeta">
+                <img src="${comerciante.fotoPerfil}" alt="${comerciante.nombre}" class="foto-perfil">
+                <h3>${comerciante.nombre}</h3>
+                <p>${comerciante.descripcionCorta}</p>
+                <p><strong>Categoría:</strong> ${comerciante.categoria}</p>
+                ${comerciante.telefono ? `${comerciante.telefono}` : ''}
+            </div>
+        `;
+        container.appendChild(comercianteDiv);
+    });
+}
+
+// ✅ Ejecutar cuando la página cargue
+
+    displayComerciantes(empresas.filter(e => e.categoria === "Comerciantes").slice(0, 2))
+
+
+

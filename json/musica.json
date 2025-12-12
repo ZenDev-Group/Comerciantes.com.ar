@@ -1,0 +1,142 @@
+[
+  {
+    "nombre": "Guitarra Eléctrica",
+    "categoria": "cuerda",
+    "marca": "Fender",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Fender_Stratocaster_004.JPG",
+    "año": 1954
+  },
+  {
+    "nombre": "Batería Acústica",
+    "categoria": "percusión",
+    "marca": "Yamaha",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Yamaha_Recording_Custom_drumkit.jpg",
+    "año": 1980
+  },
+  {
+    "nombre": "Violín",
+    "categoria": "cuerda",
+    "marca": "Stradivarius",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Violin_VL100.png",
+    "año": 1715
+  },
+  {
+    "nombre": "Trompeta",
+    "categoria": "viento",
+    "marca": "Bach",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Trumpet_1.jpg",
+    "año": 1924
+  },
+  {
+    "nombre": "Saxofón Alto",
+    "categoria": "viento",
+    "marca": "Selmer",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Alto_Saxophone_E_Flat.jpg",
+    "año": 1936
+  },
+  {
+    "nombre": "Piano Acústico",
+    "categoria": "cuerda",
+    "marca": "Steinway & Sons",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/2/23/Steinway_Grand_Piano_Model_D.jpg",
+    "año": 1884
+  },
+  {
+    "nombre": "Flauta Traversa",
+    "categoria": "viento",
+    "marca": "Yamaha",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Western_concert_flute_%28Yamaha%29.jpg",
+    "año": 1975
+  },
+  {
+    "nombre": "Bajo Eléctrico",
+    "categoria": "cuerda",
+    "marca": "Music Man",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/1/16/MusicmanStingray5.jpg",
+    "año": 1976
+  },
+  {
+    "nombre": "Bongo",
+    "categoria": "percusión",
+    "marca": "LP (Latin Percussion)",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bongo_Drums.jpg",
+    "año": 1960
+  },
+  {
+    "nombre": "Clarinete",
+    "categoria": "viento",
+    "marca": "Buffet Crampon",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Clarinet_Buffet_Crampon.jpg",
+    "año": 1890
+  },
+  {
+    "nombre": "Tambor Militar",
+    "categoria": "percusión",
+    "marca": "Pearl",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Snare_drum_Pearl.jpg",
+    "año": 1985
+  },
+  {
+    "nombre": "Trombón",
+    "categoria": "viento",
+    "marca": "Conn",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/9/91/Trombone_bore.jpg",
+    "año": 1940
+  },
+  {
+    "nombre": "Ukulele",
+    "categoria": "cuerda",
+    "marca": "Kala",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ukulele1_HiRes.jpg",
+    "año": 2005
+  },
+  {
+    "nombre": "Cajón Peruano",
+    "categoria": "percusión",
+    "marca": "Meinl",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cajon.jpg",
+    "año": 1990
+  },
+  {
+    "nombre": "Oboe",
+    "categoria": "viento",
+    "marca": "Loree",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Oboe_modern.jpg",
+    "año": 1930
+  },
+  {
+    "nombre": "Arpa",
+    "categoria": "cuerda",
+    "marca": "Lyon & Healy",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Concert_harp.jpg",
+    "año": 1900
+  },
+  {
+    "nombre": "Congas",
+    "categoria": "percusión",
+    "marca": "Toca Percussion",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/a/af/Conga_drums.jpg",
+    "año": 1978
+  },
+  {
+    "nombre": "Fagot",
+    "categoria": "viento",
+    "marca": "Heckel",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bassoon_2.jpg",
+    "año": 1910
+  },
+  {
+    "nombre": "Mandolina",
+    "categoria": "cuerda",
+    "marca": "Gibson",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mandolin.jpg",
+    "año": 1920
+  },
+  {
+    "nombre": "Maracas",
+    "categoria": "percusión",
+    "marca": "LP (Latin Percussion)",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Maracas.jpg",
+    "año": 1970
+  }
+]
