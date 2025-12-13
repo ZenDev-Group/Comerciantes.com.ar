@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamiento Web y Marketing Digital Sin Estrés - Zendev</title>
-    <meta name="description" content="En Zendev, transformamos Pymes y Agro con tecnología digital robusta y estrategias de marketing efectivas. Olvídate del estrés operativo y crece con nosotros.">
-    <meta name="keywords" content="Marketing Digital, Posicionamiento Web, SEO Local, Pymes, Agroindustria, Tecnología para Negocios, Publicidad Digital, Branding Estratégico, Infraestructura Digital, Comercio Local">
+    <meta name="description"
+        content="En Zendev, transformamos Pymes y Agro con tecnología digital robusta y estrategias de marketing efectivas. Olvídate del estrés operativo y crece con nosotros.">
+    <meta name="keywords"
+        content="Marketing Digital, Posicionamiento Web, SEO Local, Pymes, Agroindustria, Tecnología para Negocios, Publicidad Digital, Branding Estratégico, Infraestructura Digital, Comercio Local">
     <meta name="author" content="Zendev">
     <link rel="icon" href="img/zendev-logo.png" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Telex&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Telex&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -25,23 +32,28 @@
         :root {
             --color-fondo-dark: #0A0A0A;
             --color-fondo-light: #FFFFFF;
-            --color-primario: #ADFF2F; /* Verde lima */
+            --color-primario: #ADFF2F;
+            /* Verde lima */
             --color-texto-dark: #FFFFFF;
             --color-texto-light: #0A0A0A;
             --color-texto-secundario-dark: #A0A0A0;
             --color-texto-secundario-light: #555555;
             --color-borde-dark: #2A2A2A;
             --color-borde-light: #EAEAEA;
-            
+
             --fuente-display: 'Montserrat', sans-serif;
             --fuente-cuerpo: 'Montserrat', sans-serif;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        html { 
-            scroll-behavior: auto; 
-            overflow-y: auto; 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: auto;
+            overflow-y: auto;
         }
 
         body {
@@ -58,64 +70,88 @@
             padding: 0 24px;
         }
 
-        section { padding: 100px 0; }
-        
+        section {
+            padding: 100px 0;
+        }
+
         /* Tus clases personalizadas */
-        .verde{color:#ADFF2F !important;}
-        .grueso{font-weight: 500 !important;}
+        .verde {
+            color: #ADFF2F !important;
+        }
+
+        .grueso {
+            font-weight: 500 !important;
+        }
 
         /* 12.6 - CSS PARA EFECTO "SVG HIGHLIGHT" */
         .svg-highlight-wrapper {
-            position: relative; 
-            display: inline-block; 
+            position: relative;
+            display: inline-block;
         }
 
         .highlight-svg {
             position: absolute;
-            z-index: -1; 
-            bottom: -5px; 
+            z-index: -1;
+            bottom: -5px;
             left: -5px;
-            width: calc(100% + 10px); 
+            width: calc(100% + 10px);
             height: 30px;
-            overflow: visible; 
+            overflow: visible;
         }
 
         .highlight-svg path {
-            stroke: var(--color-primario); 
-            stroke-width: 5;        
-            stroke-linecap: round;  
+            stroke: var(--color-primario);
+            stroke-width: 5;
+            stroke-linecap: round;
             fill: none;
         }
 
         /* Estilos base de texto */
-        h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 1.2;
+        }
+
         h1 {
             font-family: var(--fuente-display);
             font-size: 4.2rem;
             font-weight: 200;
         }
+
         h2 {
             font-family: var(--fuente-cuerpo);
             font-weight: 500;
             font-size: 3.5rem;
             margin-bottom: 56px;
         }
+
         h3 {
             font-family: var(--fuente-cuerpo);
             font-weight: 600;
             font-size: 1.5rem;
         }
-         h5 {
+
+        h2.display-4 {
             font-family: var(--fuente-display);
             font-size: 4.2rem;
             font-weight: 200;
         }
-        .grosor{font-weight: 500; color:white !important;}
+
+        .grosor {
+            font-weight: 500;
+            color: white !important;
+        }
+
         p {
             font-family: var(--fuente-cuerpo);
             line-height: 1.6;
             font-size: 1.05rem;
         }
+
         .section-subtitle {
             font-family: var(--fuente-cuerpo);
             font-weight: 500;
@@ -130,18 +166,41 @@
             background-color: var(--color-fondo-dark);
             color: var(--color-texto-dark);
         }
-        .section-dark p { color: var(--color-texto-secundario-dark); }
-        .section-dark .section-subtitle { color: var(--color-texto-secundario-dark); }
-        .section-dark .nav-menu-icon span { background-color: var(--color-texto-dark); }
-        
+
+        .section-dark p {
+            color: var(--color-texto-secundario-dark);
+        }
+
+        .section-dark .section-subtitle {
+            color: var(--color-texto-secundario-dark);
+        }
+
+        .section-dark .nav-menu-icon span {
+            background-color: var(--color-texto-dark);
+        }
+
         .section-light {
             background-color: var(--color-fondo-light);
             color: var(--color-texto-light);
         }
-        .section-light h1, .section-light h2, .section-light h3 { color: var(--color-texto-light); }
-        .section-light p { color: var(--color-texto-secundario-light); }
-        .section-light .section-subtitle { color: var(--color-texto-secundario-light); }
-        .section-light .nav-menu-icon span { background-color: var(--color-texto-light); }
+
+        .section-light h1,
+        .section-light h2,
+        .section-light h3 {
+            color: var(--color-texto-light);
+        }
+
+        .section-light p {
+            color: var(--color-texto-secundario-light);
+        }
+
+        .section-light .section-subtitle {
+            color: var(--color-texto-secundario-light);
+        }
+
+        .section-light .nav-menu-icon span {
+            background-color: var(--color-texto-light);
+        }
 
         /* 3. HEADER (NAV) */
         .header {
@@ -152,23 +211,30 @@
             background-color: #000000c2;
             backdrop-filter: blur(3px);
         }
+
         .nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .nav-logo {
             display: flex;
             align-items: center;
-            gap: 10px; 
+            gap: 10px;
             color: white;
             text-decoration: none;
             font-size: 1.3rem;
         }
+
         @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .logo-wrapper {
@@ -187,6 +253,7 @@
         .nav-logo:hover .logo-wrapper {
             transform: rotate(360deg) scale(1.3);
         }
+
         .nav-menu-icon {
             width: 24px;
             height: 18px;
@@ -195,6 +262,7 @@
             justify-content: space-between;
             cursor: pointer;
         }
+
         .nav-menu-icon span {
             width: 100%;
             height: 2px;
@@ -216,8 +284,18 @@
             background-position-x: 50%;
             background-blend-mode: color;
         }
-        .hero h1 { max-width: 850px; margin-bottom: 24px; }
-        .hero p { font-size: 1.15rem; max-width: 850px; margin-bottom: 32px; }
+
+        .hero h1 {
+            max-width: 850px;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            max-width: 850px;
+            margin-bottom: 32px;
+        }
+
         .btn {
             display: inline-block;
             background-color: var(--color-primario);
@@ -231,8 +309,19 @@
             border-radius: 50px;
             transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
         }
-        .btn:hover { transform: scale(1.05); background-color: #c6ff6a; box-shadow:none; }
-        .hero h1, .hero p, .hero .btn { opacity: 0; transform: translateY(30px); }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #c6ff6a;
+            box-shadow: none;
+        }
+
+        .hero h1,
+        .hero p,
+        .hero .btn {
+            opacity: 0;
+            transform: translateY(30px);
+        }
 
         /* 5. MARQUESINA */
         .marquee {
@@ -242,11 +331,13 @@
             color: #ffffff;
             padding: 20px 0 0 0;
         }
+
         .marquee-inner {
             display: flex;
             white-space: nowrap;
             animation: marquee 12s linear infinite;
         }
+
         .marquee-item {
             font-family: var(--fuente-cuerpo);
             font-size: 1.4rem;
@@ -254,14 +345,22 @@
             margin: 0 40px;
             text-transform: uppercase;
         }
-        .grande{font-size: 4rem !important;
-                margin: -13px 0px;
-                font-weight: 300;
-                color: #ADFF2F;}
+
+        .grande {
+            font-size: 4rem !important;
+            margin: -13px 0px;
+            font-weight: 300;
+            color: #ADFF2F;
+        }
 
         @keyframes marquee {
-            0% { transform: translateX(0%); }
-            100% { transform: translateX(-50%); }
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
         }
 
         /* 6. SECCIÓN PROYECTOS */
@@ -270,23 +369,30 @@
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 32px;
         }
+
         .project-card {
             background-color: #F0F0F0;
             border-radius: 12px;
             overflow: hidden;
             transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
+
         .project-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
         }
+
         .project-card img {
             width: 100%;
             height: 280px;
             object-fit: cover;
             display: block;
         }
-        .project-card-content { padding: 24px; }
+
+        .project-card-content {
+            padding: 24px;
+        }
+
         .project-card-content p {
             color: var(--color-texto-secundario-light);
             font-size: 1rem;
@@ -294,12 +400,19 @@
         }
 
         /* 7. SECCIÓN PROCESO */
-        .process { background-color: #111; }
-        .process-list { border-top: 1px solid var(--color-borde-dark); }
+        .process {
+            background-color: #111;
+        }
+
+        .process-list {
+            border-top: 1px solid var(--color-borde-dark);
+        }
+
         .process-item {
             border-bottom: 1px solid var(--color-borde-dark);
             cursor: pointer;
         }
+
         .process-header {
             padding: 32px 16px;
             display: flex;
@@ -307,7 +420,11 @@
             align-items: center;
             transition: background-color 0.3s ease;
         }
-        .process-item:hover .process-header { background-color: #1A1A1A; }
+
+        .process-item:hover .process-header {
+            background-color: #1A1A1A;
+        }
+
         .process-header h3 {
             font-family: var(--fuente-cuerpo);
             font-size: 1.8rem;
@@ -315,6 +432,7 @@
             color: var(--color-texto-secundario-dark);
             transition: color 0.3s ease;
         }
+
         .process-header span {
             font-family: var(--fuente-display);
             font-size: 2.2rem;
@@ -322,16 +440,27 @@
             color: var(--color-primario);
             margin-right: 24px;
         }
-        .process-item.active .process-header h3 { color: var(--color-texto-dark); }
+
+        .process-item.active .process-header h3 {
+            color: var(--color-texto-dark);
+        }
+
         .process-content {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.5s ease-out;
         }
-        .process-content p { padding: 32px 16px; max-width: 700px; }
-        .process-item.active .process-content { max-height: 300px; } 
 
-        
+        .process-content p {
+            padding: 32px 16px;
+            max-width: 700px;
+        }
+
+        .process-item.active .process-content {
+            max-height: 300px;
+        }
+
+
         /* 8. SECCIÓN TESTIMONIOS */
         .testimonials {
             padding-bottom: 120px;
@@ -359,7 +488,7 @@
             padding: 32px;
             margin: 0 16px;
         }
-        
+
         .testimonial-slide p {
             font-size: 1.1rem;
             font-style: italic;
@@ -382,7 +511,7 @@
             font-size: 0.9rem;
             color: var(--color-texto-secundario-dark);
         }
-        
+
         /* 9. SECCIÓN REDES */
         .socials-grid {
             display: grid;
@@ -390,32 +519,57 @@
             grid-template-rows: repeat(1, 250px);
             gap: 24px;
         }
+
         .social-card {
             padding: 48px;
             border-radius: 12px;
             text-decoration: none;
             transition: transform 0.3s ease;
         }
-        .social-card:hover { transform: scale(1.02); border-radius: none;}
-        .social-card h3 { font-size: 1.8rem; }
-        .social-card span { font-family: var(--fuente-cuerpo); font-size: 1rem; }
+
+        .social-card:hover {
+            transform: scale(1.02);
+            border-radius: none;
+        }
+
+        .social-card h3 {
+            font-size: 1.8rem;
+        }
+
+        .social-card span {
+            font-family: var(--fuente-cuerpo);
+            font-size: 1rem;
+        }
 
         .social-card-1 {
             background-color: var(--color-primario);
             color: var(--color-texto-light);
         }
-        .social-card-1 span { color: #333; }
+
+        .social-card-1 span {
+            color: #333;
+        }
+
         .social-card-2 {
             background-color: #1A1A1A;
             color: var(--color-texto-dark);
         }
-        .social-card-2 span { color: var(--color-texto-secundario-dark); }
-        .social-card-3, .social-card-4 {
+
+        .social-card-2 span {
+            color: var(--color-texto-secundario-dark);
+        }
+
+        .social-card-3,
+        .social-card-4 {
             background-color: #F0F0F0;
             color: var(--color-texto-light);
         }
-        .social-card-3 span, .social-card-4 span { color: var(--color-texto-secundario-light); }
-        
+
+        .social-card-3 span,
+        .social-card-4 span {
+            color: var(--color-texto-secundario-light);
+        }
+
         /* 10. SECCIÓN CTA */
         .cta {
             text-align: center;
@@ -426,32 +580,39 @@
             background-position-y: 22%;
             background-blend-mode: color;
         }
+
         .cta h2 {
             font-size: 4rem;
             max-width: 800px;
             margin: 0 auto;
             margin-bottom: 0;
         }
+
         .cta h1 {
             font-size: 4rem;
             max-width: 900px;
             margin: 0 auto;
             margin-bottom: 0;
-            font-weight: 300; 
+            font-weight: 300;
             line-height: 1.3;
         }
-        .cta span { color: var(--color-texto-secundario-dark); }
+
+        .cta span {
+            color: var(--color-texto-secundario-dark);
+        }
 
         /* 11. FOOTER */
         .footer {
             padding: 48px 0;
             border-top: 1px solid var(--color-borde-dark);
         }
+
         .footer .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
         .footer p {
             font-size: 0.9rem;
             color: var(--color-texto-secundario-dark);
@@ -462,25 +623,42 @@
             opacity: 0;
             transform: translateY(40px);
         }
+
         .gsap-stagger-item {
-             opacity: 0;
-             transform: translateY(10px);
+            opacity: 0;
+            transform: translateY(10px);
         }
 
         /* 13. RESPONSIVE DESIGN */
         @media (max-width: 768px) {
-            section { padding: 60px 0; }
-            h1 { font-size: 3rem; }
-            h5 { font-size: 3rem; }
-            h2 { font-size: 2.5rem; }
-            
+            section {
+                padding: 60px 0;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            h5 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
             .projects-grid {
                 grid-template-columns: 1fr;
                 gap: 24px;
             }
 
-            .process-header h3 { font-size: 1.3rem; }
-            .process-header span { font-size: 1.8rem; }
+            .process-header h3 {
+                font-size: 1.3rem;
+            }
+
+            .process-header span {
+                font-size: 1.8rem;
+            }
 
             .testimonial-slide {
                 width: 300px;
@@ -492,10 +670,20 @@
                 grid-template-rows: auto;
                 gap: 16px;
             }
-            .social-card { padding: 32px; min-height: 150px; }
-            .social-card h3 { font-size: 1.5rem; }
-            
-            .cta h2, .cta h1 { font-size: 2.8rem; }
+
+            .social-card {
+                padding: 32px;
+                min-height: 150px;
+            }
+
+            .social-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .cta h2,
+            .cta h1 {
+                font-size: 2.8rem;
+            }
 
             .footer .container {
                 flex-direction: column;
@@ -503,9 +691,15 @@
                 text-align: center;
             }
         }
-        @media (max-width:400px){
-            h1 { font-size: 2.4rem; }
-            .hero{min-height: 80vh;}
+
+        @media (max-width:400px) {
+            h1 {
+                font-size: 2.4rem;
+            }
+
+            .hero {
+                min-height: 80vh;
+            }
         }
 
         /* ==================== ESTILOS SECCIÓN EQUIPO (CORREGIDO) ==================== */
@@ -515,12 +709,14 @@
             display: grid;
             /* Crea columnas automáticas que no sean menores a 300px */
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem; /* Espacio entre tarjetas */
+            gap: 2rem;
+            /* Espacio entre tarjetas */
             justify-content: center;
         }
 
         .team-section {
-            background-color: #f4f4f4; /* Fondo gris claro para diferenciar */
+            background-color: #f4f4f4;
+            /* Fondo gris claro para diferenciar */
             padding: 100px 0;
         }
 
@@ -528,9 +724,12 @@
             transition: all 0.3s ease-in-out;
             border-radius: 1rem;
             background: #fff;
-            border: none; /* Quitamos borde por defecto */
-            box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075); /* Sombra suave inicial */
-            height: 100%; /* Asegura que todas tengan la misma altura */
+            border: none;
+            /* Quitamos borde por defecto */
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+            /* Sombra suave inicial */
+            height: 100%;
+            /* Asegura que todas tengan la misma altura */
             display: flex;
             flex-direction: column;
         }
@@ -538,7 +737,8 @@
         .team-card-body {
             padding: 2.5rem;
             text-align: center;
-            flex-grow: 1; /* Ocupa el espacio disponible */
+            flex-grow: 1;
+            /* Ocupa el espacio disponible */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -547,20 +747,22 @@
         /* Efecto Hover */
         .team-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
         }
 
         /* Fotos redondas */
         .team-img-container {
             margin-bottom: 1.5rem;
         }
+
         .team-img {
             width: 150px;
             height: 150px;
             object-fit: cover;
             border-radius: 50%;
-            border: 4px solid #fff; /* Borde blanco más notorio */
-            box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+            border: 4px solid #fff;
+            /* Borde blanco más notorio */
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
         }
 
         /* Títulos y Roles (CORREGIDO COLOR) */
@@ -568,10 +770,13 @@
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
-            color: #212529; /* Color oscuro para fondo blanco */
+            color: #212529;
+            /* Color oscuro para fondo blanco */
         }
+
         .team-role {
-            color: #555; /* Gris oscuro para el rol */
+            color: #555;
+            /* Gris oscuro para el rol */
             font-weight: 600;
             text-transform: uppercase;
             font-size: 0.9rem;
@@ -580,16 +785,19 @@
         }
 
         .team-desc {
-            color: #6c757d; /* Gris medio */
+            color: #6c757d;
+            /* Gris medio */
             font-size: 0.95rem;
             line-height: 1.5;
             margin-bottom: 1.5rem;
-            flex-grow: 1; /* Empuja el botón hacia abajo */
+            flex-grow: 1;
+            /* Empuja el botón hacia abajo */
         }
 
         /* Botón de LinkedIn */
         .btn-linkedin {
-            color: #0077b5; /* Color oficial de LinkedIn */
+            color: #0077b5;
+            /* Color oficial de LinkedIn */
             border: 2px solid #0077b5;
             background: transparent;
             padding: 0.5rem 1.5rem;
@@ -600,10 +808,12 @@
             align-items: center;
             transition: all 0.3s ease;
         }
+
         .btn-linkedin:hover {
             background-color: #0077b5;
             color: #fff;
         }
+
         .btn-linkedin i {
             margin-right: 8px;
             font-size: 1.1rem;
@@ -612,20 +822,22 @@
         /* Ajuste Responsive para el Grid del Equipo */
         @media (max-width: 768px) {
             .team-grid {
-                grid-template-columns: 1fr; /* Una sola columna en móvil */
-                max-width: 400px; /* Ancho máximo para que no se estiren */
+                grid-template-columns: 1fr;
+                /* Una sola columna en móvil */
+                max-width: 400px;
+                /* Ancho máximo para que no se estiren */
                 margin: 0 auto;
             }
         }
-
     </style>
 </head>
+
 <body>
-    
+
     <header class="header" id="top">
         <nav class="nav container">
             <a href="#proceso" class="nav-logo">
-                <div class="logo-wrapper"> 
+                <div class="logo-wrapper">
                     <img src="img/zendev-logo.png" alt="Zendev Logo" class="logo-icon">
                 </div>
                 <span class="logo-text">zendev</span>
@@ -641,14 +853,17 @@
     <main>
         <section class="hero section-dark">
             <div class="container">
-                
-                <h1>La Tecnología que tu   <span class="svg-highlight-wrapper"><span class="grosor">negocio </span><svg class="highlight-svg" viewBox="0 0 205 30" preserveAspectRatio="none">
-        <path d="M 39 18 C 274 38 257 -4 0 28"/>
-    </svg>
-</span> <span class="grosor">necesita, </span> sin el dolor de cabeza.</h1>
-                <p>No somos otra agencia de marketing. Somos un laboratorio digital enfocado en la Zona Núcleo. Construimos la infraestructura tecnológica robusta que Pymes y Agro necesitan para vender más, explicada en criollo y sin vueltas.</p>
+
+                <h1>La Tecnología que tu <span class="svg-highlight-wrapper"><span class="grosor">negocio </span><svg
+                            class="highlight-svg" viewBox="0 0 205 30" preserveAspectRatio="none">
+                            <path d="M 39 18 C 274 38 257 -4 0 28" />
+                        </svg>
+                    </span> <span class="grosor">necesita, </span> sin el dolor de cabeza.</h1>
+                <p>No somos otra agencia de marketing. Somos un laboratorio digital enfocado en la Zona Núcleo.
+                    Construimos la infraestructura tecnológica robusta que Pymes y Agro necesitan para vender más,
+                    explicada en criollo y sin vueltas.</p>
                 <a href="#redes" class="btn">Empieza a Crecer Hoy</a>
-                </div>
+            </div>
         </section>
 
         <div class="marquee">
@@ -691,31 +906,42 @@
                 <div class="gsap-fade-in">
                     <div class="section-subtitle">PORTFOLIO</div>
                     <h2 class="section-title">Nuestros Ecosistemas Digitales</h2>
-                    </div>
-                
+
+                </div>
+                <p>Desarrollamos ecosistemas digitales a medida para comercios, Pymes, Microemprendedores,
+                    profesionales, acopios, proveedores de insumos, contratistas rurales y comercios líderes en ciudades
+                    del interior del país.</p>
+                <p>Estamos creando guías comerciales que abarcan todos los rubros, para conectar a la sociedad con el
+                    sector productivo de la región.</p><br>
                 <div class="projects-grid">
-                    <div class="project-card gsap-stagger-item"> 
-                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDR8fHdlYiUyMGRlc2lnbiUyMGxhcHRvcHxlbnwwfHx8fDE3MzAzMTg2NTB8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Estrategia de Branding y SEO">
+                    <div class="project-card gsap-stagger-item">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDR8fHdlYiUyMGRlc2lnbiUyMGxhcHRvcHxlbnwwfHx8fDE3MzAzMTg2NTB8MA&ixlib=rb-4.0.3&q=80&w=1080"
+                            alt="Estrategia de Branding y SEO">
                         <div class="project-card-content">
                             <h3>Microemprendedores</h3>
-                            <p>La puerta de entrada al mundo digital. Herramientas simples y comunidad para quienes están dando los primeros pasos.</p>
+                            <p>La puerta de entrada al mundo digital. Herramientas simples y comunidad para quienes
+                                están dando los primeros pasos.</p>
                         </div>
                     </div>
-                    <div class="project-card gsap-stagger-item"> 
-                        <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Estrategia de Branding y SEO">
+                    <div class="project-card gsap-stagger-item">
+                        <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Estrategia de Branding y SEO">
                         <div class="project-card-content">
                             <h3>Comerciantes</h3>
-                            <p>La red definitiva de digitalización local. Webs propias, dominios y presencia en Google Maps para el comercio que quiere jugar en primera.</p>
+                            <p>La red definitiva de digitalización local. Webs propias, dominios y presencia en Google
+                                Maps para el comercio que quiere jugar en primera.</p>
                         </div>
                     </div>
-                    <div class="project-card gsap-stagger-item"> 
-                        <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDExfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTczMDMyMzUwOXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Diseño Ecommerce y Posicionamiento">
+                    <div class="project-card gsap-stagger-item">
+                        <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTAwNXwwfDF8c2VhcmNofDExfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTczMDMyMzUwOXww&ixlib=rb-4.0.3&q=80&w=1080"
+                            alt="Diseño Ecommerce y Posicionamiento">
                         <div class="project-card-content">
                             <h3>Agrocomercios</h3>
-                            <p>Infraestructura digital pesada para la Zona Núcleo. Conectando acopios, servicios y proveedores del agro con tecnología de punta.</p>
+                            <p>Infraestructura digital pesada para la Zona Núcleo. Conectando acopios, servicios y
+                                proveedores del agro con tecnología de punta.</p>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </section>
 
@@ -724,145 +950,298 @@
                 <div class="gsap-fade-in">
                     <div class="section-subtitle"><span class="verde">MÉTODO</span></div>
                     <h2 class="section-title">Tecnología robusta, explicada simple.</h2>
-                    </div>
+                </div>
                 <div class="process-list">
-                    <div class="process-item gsap-stagger-item"> 
-                        <div class="process-header"><h3><span>/01</span> Entendemos tu negocio real.</h3></div>
-                        <div class="process-content"><p>No vendemos humo ni recetas mágicas. Analizamos si sos un comercio local o una agroindustria y aplicamos la solución tecnológica justa que necesitás.</p></div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3>
+                                <i class="bi bi-search verde" style="margin-right: 15px; font-size: 1.8rem;"></i>
+                                <span>/01</span> Entendemos tu negocio real.
+                            </h3>
+                        </div>
+                        <div class="process-content">
+                            <p>No vendemos humo ni recetas mágicas de internet. Antes de escribir una línea de código,
+                                nos sentamos a entender tu operación diaria, seas un <strong>comercio local en
+                                    expansión</strong> o una <strong>agroindustria de la Zona Núcleo</strong>. Diseñamos
+                                una estrategia de <strong>transformación digital a medida</strong> que resuelva tus
+                                problemas reales de venta y logística, no los de un manual genérico.</p>
+                        </div>
                     </div>
-                    <div class="process-item gsap-stagger-item"> 
-                        <div class="process-header"><h3><span>/02</span> Infraestructura Propia y Sólida.</h3></div>
-                        <div class="process-content"><p>Usamos tecnología de vanguardia (Docker, Node.js) para crear activos digitales rápidos y seguros. Nada de plataformas lentas que te cobran en dólares.</p></div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3>
+                                <i class="bi bi-hdd-rack verde" style="margin-right: 15px; font-size: 1.8rem;"></i>
+                                <span>/02</span> Infraestructura Propia y Sólida.
+                            </h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Olvidate de las plantillas lentas que se caen cuando más las necesitás. Construimos tus
+                                activos digitales sobre <strong>tecnología de vanguardia (Docker, Node.js, bases de
+                                    datos de alto rendimiento)</strong> alojada en <strong>servidores
+                                    dedicados</strong>. Esto garantiza una velocidad de carga superior, escalabilidad
+                                para crecer sin límites y una independencia total de plataformas que te cobran
+                                comisiones ocultas en dólares.</p>
+                        </div>
                     </div>
-                    <div class="process-item gsap-stagger-item"> 
-                        <div class="process-header"><h3><span>/03</span> Que te encuentren fácil.</h3></div>
-                        <div class="process-content"><p>No sirve tener web si nadie la ve. Optimizamos tu Google Maps y tu SEO local para que aparezcas justo cuando tu cliente te necesita.</p></div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3>
+                                <i class="bi bi-geo-alt verde" style="margin-right: 15px; font-size: 1.8rem;"></i>
+                                <span>/03</span> Que te encuentren fácil.
+                            </h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Tener la mejor web no sirve de nada si está escondida. Implementamos una estrategia
+                                agresiva de <strong>posicionamiento orgánico en Google (SEO local)</strong> y
+                                optimización extrema de tu perfil de <strong>Google My Business</strong>. Hacemos que tu
+                                negocio aparezca primero en el mapa justo cuando un cliente potencial en tu ciudad busca
+                                lo que vos vendés desde su celular.</p>
+                        </div>
                     </div>
-                    <div class="process-item gsap-stagger-item"> 
-                        <div class="process-header"><h3><span>/04</span> Cero estrés operativo para vos.</h3></div>
-                        <div class="process-content"><p>Nosotros nos ocupamos de los servidores, los dominios y las actualizaciones. Vos ocupate de atender el mostrador y cerrar ventas.</p></div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3>
+                                <i class="bi bi-shield-check verde" style="margin-right: 15px; font-size: 1.8rem;"></i>
+                                <span>/04</span> Cero estrés operativo para vos.
+                            </h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Tu foco tiene que estar en atender el mostrador y cerrar ventas, no en lidiar con
+                                problemas técnicos. Nosotros nos ocupamos de toda la "fontanería digital": gestión de
+                                <strong>dominios .com.ar</strong>, configuración de servidores, <strong>seguridad
+                                    informática</strong> y actualizaciones. Te brindamos <strong>soporte técnico
+                                    continuo</strong> para que tu negocio digital funcione como un reloj, 24/7, sin que
+                                vos tengas que mover un dedo.
+                            </p>
+                        </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </section>
 
         <section class="team-section section-padding" id="team">
-    <div class="container">
-      <div class="gsap-fade-in text-center mb-5">
-        <div class="section-subtitle" style="color: #555;">NOSOTROS</div>
-        <h2 class="section-title" style="color: #0A0A0A;">El Equipo de ZENDEV</h2>
-        
-      </div>
-  
-      <div class="team-grid">
-  
-        <div class="team-card gsap-stagger-item">
-          <div class="team-card-body">
-            <div class="team-img-container">
-              <img src="img/fabian.png" alt="Foto del CEO" class="team-img">
+            <div class="container">
+                <div class="gsap-fade-in text-center mb-5">
+                    <div class="section-subtitle" style="color: #555;">NOSOTROS</div>
+                    <h2 class="section-title" style="color: #0A0A0A;">El Equipo de ZENDEV</h2>
+
+                </div>
+
+                <div class="team-grid">
+
+                    <div class="team-card gsap-stagger-item">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="img/fabian.png" alt="Foto del CEO" class="team-img">
+                            </div>
+                            <h3 class="team-name">Fabián Angeloni</h3>
+                            <p class="team-role">Co-Founder & CEO | Estrategia</p>
+                            <p class="team-desc">
+                                Lidero la visión estratégica y comercial. Mi foco es conectar la tecnología compleja con
+                                los problemas de negocio reales de las PyMEs y el agro.
+                            </p>
+                            <a href="https://www.linkedin.com/in/tu-perfil-real" target="_blank" class="btn-linkedin">
+                                <i class="bi bi-linkedin"></i>Ver en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card gsap-stagger-item">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="img/gustavo.jpeg" alt="Foto del CTO" class="team-img">
+                            </div>
+                            <h3 class="team-name">Gustavo Olivera</h3>
+                            <p class="team-role">Co-Founder & CTO | Arquitectura</p>
+                            <p class="team-desc">
+                                Arquitecto de software. Diseño la infraestructura robusta y escalable (Docker/Node.js)
+                                que hace que nuestras plataformas sean rápidas y seguras.
+                            </p>
+                            <a href="#" target="_blank" class="btn-linkedin">
+                                <i class="bi bi-linkedin"></i>Ver en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card gsap-stagger-item">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg"
+                                    alt="Foto del CPO" class="team-img">
+                            </div>
+                            <h3 class="team-name">Roselén Medina</h3>
+                            <p class="team-role">Co-Founder & CPO | Producto & UX</p>
+                            <p class="team-desc">
+                                Obsesionado con la experiencia del usuario. Traduzco tecnología compleja en interfaces
+                                simples e intuitivas que cualquiera puede usar.
+                            </p>
+                            <a href="#" target="_blank" class="btn-linkedin">
+                                <i class="bi bi-linkedin"></i>Ver en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card gsap-stagger-item">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="img/pablo.jpeg" alt="Foto del COO" class="team-img">
+                            </div>
+                            <h3 class="team-name">Pablo Casi</h3>
+                            <p class="team-role">Co-Founder & COO | Operaciones</p>
+                            <p class="team-desc">
+                                Aseguro la excelencia operativa. Desde la calidad de los datos hasta la gestión de
+                                Google Maps y dominios, hago que todo funcione sin fricción.
+                            </p>
+                            <a href="#" target="_blank" class="btn-linkedin">
+                                <i class="bi bi-linkedin"></i>Ver en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card gsap-stagger-item">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="img/santiago.jpeg" alt="Foto del CGO" class="team-img">
+                            </div>
+                            <h3 class="team-name">Santiago Casi</h3>
+                            <p class="team-role">Co-Founder & CGO | Crecimiento</p>
+                            <p class="team-desc">
+                                Líder de expansión territorial. Conecto nuestras soluciones tecnológicas con mercados
+                                reales, abriendo nuevas ciudades y validando el negocio en la calle.
+                            </p>
+                            <a href="#" target="_blank" class="btn-linkedin">
+                                <i class="bi bi-linkedin"></i>Ver en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card gsap-stagger-item" style="background-color: #f0f2f5;">
+                        <div class="team-card-body">
+                            <div class="team-img-container">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                                    alt="ZENDEV en LinkedIn" class="team-img" style="padding: 10px; background: white;">
+                            </div>
+                            <h3 class="team-name">ZENDEV GROUP</h3>
+                            <p class="team-role" style="color: #0a66c2;">Página Oficial de Empresa</p>
+                            <p class="team-desc" style="font-weight: 500; color: #333;">
+                                Orgullosamente operando desde el corazón de la Zona Núcleo. Somos la ingeniería
+                                tecnológica que conecta la potencia del interior productivo con el mundo digital.
+                            </p>
+                            <a href="https://www.linkedin.com/company/zendev-group/" target="_blank"
+                                class="btn-linkedin" style="background-color: #0a66c2; color: white; border: none;">
+                                <i class="bi bi-linkedin"></i>Seguir en LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <h3 class="team-name">Fabián Angeloni</h3>
-            <p class="team-role">Co-Founder & CEO | Estrategia</p>
-            <p class="team-desc">
-              Lidero la visión estratégica y comercial. Mi foco es conectar la tecnología compleja con los problemas de negocio reales de las PyMEs y el agro.
-            </p>
-            <a href="https://www.linkedin.com/in/tu-perfil-real" target="_blank" class="btn-linkedin">
-              <i class="bi bi-linkedin"></i>Ver en LinkedIn
-            </a>
-          </div>
-        </div>
-  
-        <div class="team-card gsap-stagger-item">
-          <div class="team-card-body">
-            <div class="team-img-container">
-              <img src="img/gustavo.jpeg" alt="Foto del CTO" class="team-img">
-            </div>
-            <h3 class="team-name">Gustavo Olivera</h3>
-            <p class="team-role">Co-Founder & CTO | Arquitectura</p>
-            <p class="team-desc">
-              Arquitecto de software. Diseño la infraestructura robusta y escalable (Docker/Node.js) que hace que nuestras plataformas sean rápidas y seguras.
-            </p>
-            <a href="#" target="_blank" class="btn-linkedin">
-              <i class="bi bi-linkedin"></i>Ver en LinkedIn
-            </a>
-          </div>
-        </div>
-  
-        <div class="team-card gsap-stagger-item">
-          <div class="team-card-body">
-            <div class="team-img-container">
-              <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg" alt="Foto del CPO" class="team-img">
-            </div>
-            <h3 class="team-name">Roselén Medina</h3>
-            <p class="team-role">Co-Founder & CPO | Producto & UX</p>
-            <p class="team-desc">
-              Obsesionado con la experiencia del usuario. Traduzco tecnología compleja en interfaces simples e intuitivas que cualquiera puede usar.
-            </p>
-            <a href="#" target="_blank" class="btn-linkedin">
-              <i class="bi bi-linkedin"></i>Ver en LinkedIn
-            </a>
-          </div>
-        </div>
-  
-        <div class="team-card gsap-stagger-item">
-          <div class="team-card-body">
-            <div class="team-img-container">
-              <img src="img/pablo.jpeg" alt="Foto del COO" class="team-img">
-            </div>
-            <h3 class="team-name">Pablo Casi</h3>
-            <p class="team-role">Co-Founder & COO | Operaciones</p>
-            <p class="team-desc">
-              Aseguro la excelencia operativa. Desde la calidad de los datos hasta la gestión de Google Maps y dominios, hago que todo funcione sin fricción.
-            </p>
-            <a href="#" target="_blank" class="btn-linkedin">
-              <i class="bi bi-linkedin"></i>Ver en LinkedIn
-            </a>
-          </div>
-        </div>
-  
-        <div class="team-card gsap-stagger-item">
-          <div class="team-card-body">
-            <div class="team-img-container">
-              <img src="img/santiago.jpeg" alt="Foto del CGO" class="team-img">
-            </div>
-            <h3 class="team-name">Santiago Casi</h3>
-            <p class="team-role">Co-Founder & CGO | Crecimiento</p>
-            <p class="team-desc">
-              Líder de expansión territorial. Conecto nuestras soluciones tecnológicas con mercados reales, abriendo nuevas ciudades y validando el negocio en la calle.
-            </p>
-            <a href="#" target="_blank" class="btn-linkedin">
-              <i class="bi bi-linkedin"></i>Ver en LinkedIn
-            </a>
-          </div>
-        </div>
-  
-      </div> </div> </section>
-  <section class="socials section-light" id="redes">
+        </section>
+        <section class="socials section-light" id="redes">
             <div class="container">
                 <div class="gsap-fade-in">
                     <div class="section-subtitle">HABLEMOS</div>
                     <h2 class="section-title">¿Listo para digitalizar tu negocio?</h2>
-                    </div>
+                </div>
                 <div class="socials-grid">
-                    <a href="#top" class="social-card social-card-1 gsap-stagger-item" style="background-color: #6f95ce;"> 
-                        <h3>LinkedIn</h3>
-                        <span>Estrategias B2B</span>
+
+                    <a href="https://wa.me/549XXXXXXXXXX?text=Hola%20ZENDEV,%20estoy%20interesado%20en%20sus%20servicios%20de%20digitalización."
+                        target="_blank" class="social-card social-card-4 gsap-stagger-item"
+                        style="background-color: #adff2f;">
+                        <h3 style="color: #0A0A0A;">WhatsApp</h3>
+                        <span style="color: #333; font-weight: 500;">Chateá con nosotros ahora</span>
                     </a>
-                    
-                    <a href="mailto:hello@zendev.com" class="social-card social-card-4 gsap-stagger-item" style="background-color: #adff2f;"> 
+
+                    <a href="mailto:hello@zendev.com" class="social-card social-card-1 gsap-stagger-item"
+                        style="background-color: #6f95ce;">
                         <h3>Correo</h3>
-                        <span>Inicia tu Proyecto (hello@zendev.com)</span>
+                        <span>Envíanos tu consulta formal</span>
                     </a>
-                    </div>
+
+                </div>
             </div>
         </section>
 
+        <section class="process section-dark" id="proceso">
+            <div class="container">
+                <div class="gsap-fade-in">
+                    <div class="section-subtitle"><span class="verde">Lo que todos preguntan antes de empezar.</span>
+                    </div>
+                    <h2 class="section-title">DUDAS FRECUENTES</h2>
+                </div>
+                <div class="process-list">
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3><span><i class="bi bi-code-slash verde"
+                                        style="margin-right: 15px; font-size: 1.3rem;"></i></span> ¿Por qué elegir
+                                ZENDEV en lugar de una agencia que usa WordPress?</h3>
+                        </div>
+                        <div class="process-content">
+                            <p>WordPress es excelente para blogs, pero las Pymes y el Agro necesitan
+                                herramientas, no blogs. Nosotros desarrollamos a medida con tecnología real
+                                (Node.js, bases de datos robustas) porque ofrece mayor <strong>velocidad,
+                                    seguridad blindada y la capacidad de crecer</strong> sin que el sistema se
+                                rompa. No dependemos de plantillas ni plugins que se vuelven obsoletos.</p>
+                        </div>
+                    </div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3><span><i class="bi bi-geo verde"
+                                        style="margin-right: 15px; font-size: 1.3rem;"></i></span> ¿Trabajan solo en la
+                                Zona Núcleo?</h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Nuestro ADN y enfoque están en la <strong>Zona Núcleo (Pergamino, Junín, Venado
+                                    Tuerto, Colón, etc.)</strong> porque entendemos la dinámica productiva de la
+                                región. Sin embargo, nuestra tecnología es global. Si tu negocio valora la
+                                solidez técnica y el trato directo "sin humo", podemos trabajar juntos estés
+                                donde estés.</p>
+                        </div>
+                    </div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3><span><i class="bi bi-arrow-left-right verde"
+                                        style="margin-right: 15px; font-size: 1.3rem;"></i></span> Ya tengo un dominio
+                                .com.ar y un hosting viejo, ¿es un problema?</h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Para nada. Es lo más común. Nosotros nos encargamos de la <strong>migración
+                                    completa y sin estrés</strong>. Tomamos el control de tu dominio en NIC
+                                Argentina y lo apuntamos a nuestra infraestructura de <strong>servidores
+                                    dedicados de alto rendimiento</strong>. Vos no perdés ni un mail ni un
+                                minuto de operación.</p>
+                        </div>
+                    </div>
+                    <div class="process-item gsap-stagger-item">
+                        <div class="process-header">
+                            <h3><span><i class="bi bi-life-preserver verde"
+                                        style="margin-right: 15px; font-size: 1.3rem;"></i></span> ¿Qué pasa si necesito
+                                soporte técnico un sábado?</h3>
+                        </div>
+                        <div class="process-content">
+                            <p>Entendemos que el comercio y el agro no paran. Nuestros ecosistemas están
+                                diseñados para ser ultra estables, pero si algo crítico sucede, tenés
+                                <strong>soporte directo con los ingenieros</strong> que construyeron tu
+                                plataforma, no con un call center. Tu continuidad operativa es nuestra
+                                prioridad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <section class="cta section-dark" id="contacto" style="padding: 190px 0px;">
-             <div class="container gsap-fade-in">
+            <div class="container gsap-fade-in">
                 <div class="section-subtitle verde">CRECÉ</div>
-                <h5><span class="grosor" style="color: white;">Soluciones</span> Digitales <br><span>Simplemente <span class="svg-highlight-wrapper"><span class="grosor">Mejores<span class="verde">.</span><svg class="highlight-svg" viewBox="0 0 205 30" preserveAspectRatio="none">
-        <path d="M 5 20 C 20 15 67 6 46 20 C 15 47 233 -6 178 19"/>
-    </svg></span></span></span></h5>
+                <h2 class="display-4" style="font-weight: 300; line-height: 1.3; color: white;"><span class="grosor"
+                        style="color: white;">Soluciones</span> Digitales <br><span>Simplemente <span
+                            class="svg-highlight-wrapper"><span class="grosor">Mejores<span class="verde">.</span><svg
+                                    class="highlight-svg" viewBox="0 0 205 30" preserveAspectRatio="none">
+                                    <path d="M 5 20 C 20 15 67 6 46 20 C 15 47 233 -6 178 19" />
+                                </svg></span></span></span></h2>
             </div>
         </section>
     </main>
@@ -870,13 +1249,13 @@
     <footer class="footer section-dark">
         <div class="container">
             <a href="#proceso" class="nav-logo">
-                <div class="logo-wrapper"> 
+                <div class="logo-wrapper">
                     <img src="img/zendev-logo.png" alt="Zendev Logo" class="logo-icon">
                 </div>
                 <span class="logo-text">zendev</span>
             </a>
             <p>© 2025 zendev. Todos los derechos reservados.</p>
-            </div>
+        </div>
     </footer>
 
 
@@ -886,7 +1265,7 @@
             /* ****************************************************** */
             /* INICIALIZACIÓN DE LENIS (SCROLL SUAVE)                 */
             /* ****************************************************** */
-            
+
             const lenis = new Lenis({
                 lerp: 0.1,
                 smoothWheel: true,
@@ -903,10 +1282,10 @@
             /* ****************************************************** */
             /* CONEXIÓN DE LENIS CON GSAP SCROLLTRIGGER               */
             /* ****************************************************** */
-            
+
             gsap.registerPlugin(ScrollTrigger);
             lenis.on('scroll', ScrollTrigger.update);
-            
+
 
             /* ****************************************************** */
             /* ¡NUEVO BLOQUE! EFECTO 4: SCROLL SUAVE EN ANCLAS          */
@@ -915,17 +1294,17 @@
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', (e) => {
                     const href = anchor.getAttribute('href');
-                    
+
                     if (href === '#' || href === '') return;
-                    
+
                     const targetElement = document.querySelector(href);
-                    
+
                     if (targetElement) {
                         e.preventDefault();
-                        
-                        lenis.scrollTo(targetElement, { 
+
+                        lenis.scrollTo(targetElement, {
                             duration: 1.5, // Tu duración (puedes cambiarla)
-                            
+
                             // ----- AQUÍ ESTÁ EL CAMBIO -----
                             // Esta es una curva "easeInOutSine"
                             // (lento -> rápido -> lento)
@@ -952,7 +1331,7 @@
                     item.classList.toggle('active');
                 });
             });
-            if(accordionItems.length > 0) {
+            if (accordionItems.length > 0) {
                 accordionItems[0].classList.add('active');
             }
 
@@ -963,9 +1342,10 @@
             });
 
             gsap.utils.toArray('.gsap-fade-in').forEach(element => {
-                gsap.fromTo(element, 
+                gsap.fromTo(element,
                     { opacity: 0, y: 40 },
-                    { opacity: 1, y: 0, duration: 1, ease: "power3.out",
+                    {
+                        opacity: 1, y: 0, duration: 1, ease: "power3.out",
                         scrollTrigger: {
                             trigger: element,
                             start: "top 85%",
@@ -999,7 +1379,7 @@
             /* EFECTO 3: CARRUSEL INFINITO DE TESTIMONIOS */
             const carouselWrapper = document.querySelector('.testimonial-carousel-wrapper');
             const carousel = document.querySelector('.testimonial-carousel');
-            
+
             if (carousel) {
                 const firstHalfWidth = carousel.offsetWidth / 2;
 
@@ -1051,4 +1431,5 @@
 
 
 </body>
+
 </html>
